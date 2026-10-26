@@ -1,0 +1,10 @@
+{
+  "title": "ESTIMATE: analysis code (placeholder release)",
+  "upload_type": "software",
+  "description": "<p>Analysis code for the ESTIMATE study of alternative survey methods for estimating childhood vaccination coverage in conflict-affected and inaccessible populations. Placeholder release to reserve a citable software DOI; the analysis code will be deposited in a later version.</p>",
+  "creators": [
+    {"name": "Polonsky, Jonathan", "orcid": "0000-0002-8634-4255"}
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}
