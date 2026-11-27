@@ -1,10 +1,15 @@
 {
-  "title": "ESTIMATE: analysis code (placeholder release)",
+  "title": "ESTIMATE: analysis code",
   "upload_type": "software",
-  "description": "<p>Analysis code for the ESTIMATE study of alternative survey methods for estimating childhood vaccination coverage in conflict-affected and inaccessible populations. Placeholder release to reserve a citable software DOI; the analysis code will be deposited in a later version.</p>",
+  "description": "<p>Analysis code for the ESTIMATE study of alternative survey methods (community-based enumeration, respondent-driven sampling and venue-based sampling, compared with a household survey) for estimating childhood vaccination coverage in conflict-affected and inaccessible populations of Ethiopia and Somalia. The R scripts reproduce the computed tables and figures of the final report from the de-identified study data, which are available on request.</p>",
   "creators": [
-    {"name": "Polonsky, Jonathan", "orcid": "0000-0002-8634-4255"}
+    {
+      "name": "Polonsky, Jonathan",
+      "orcid": "0000-0002-8634-4255",
+      "affiliation": "University of Geneva"
+    }
   ],
   "license": "MIT",
-  "access_right": "open"
+  "access_right": "open",
+  "notes": "Funded by the Gates Foundation (INV-070201)."
 }
