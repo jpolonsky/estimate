@@ -115,7 +115,10 @@ units <- imap(cohorts, \(cohort, sample) {
       count(country, phase, method, name = "selected") |>
       transmute(sample = str_c(country, "_phase", phase, "_", method), selected),
     by = "sample"
-  )
+  ) |>
+  # Ethiopia Phase 1 CBE selected 30 clusters; one was dropped with its
+  # enumerator before fieldwork, so the weights list only 29
+  mutate(selected = if_else(sample == "eth_phase1_cbe", 30L, selected))
 
 # assemble one row per sample
 recruitment <-
